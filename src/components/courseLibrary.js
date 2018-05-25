@@ -31,10 +31,9 @@ class CourseLibrary extends Component {
     }
 
     render() {
-        
         return ( 
             <ul>
-                
+
                 {/* {alert(JSON.stringify())} */}
                 {this.props.courses.map(this.renderCourse)}
             </ul>
